@@ -1,0 +1,114 @@
+
+{% extends 'projects/base.html' %}
+{%load static %}
+
+{% block content %}
+<div class='row' id='home'>
+  <div class='col s6'>
+  	<div id='portrait'>
+    	<img class="portrait responsive-img circle" src='static/projects/portraitSky.jpg'>
+	</div>
+
+  </div>
+  <div class='col s6 valign-wrapper' id='intro'>
+    <blockquote> 
+      <p id='who'> My name is Jared Bennett and I'm a full-stack developer in Portland, Oregon.
+      </p>
+
+  
+    <p id='what'> I am a writer and musician, a programmer of technologies both modern and ancient.
+    </p>
+    </blockquote>
+  </div>
+</div>
+<div class='divider' id='about'></div>
+<div class='section'>
+<h5>About</h5>
+ <div class="row valign-wrapper">
+    <div class="col s6" >
+      <div class="card medium" id='education'>
+        <div class="card-image">
+          <img src="static/projects/education.jpg">
+          <span class="card-title">Education</span>
+        </div>
+        <div class="card-content">
+        <h6>PDX Code Guild</h6>
+        	<p>June-October 2019</p>
+        <h6>University of Toronto</h6>
+        	<p>Graduated 2016</p>
+        	<p>MA English Literature</p>
+        	<p>Medieval Studies</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col s6" >
+      <div class="card medium" id='skills'>
+        <div class="card-image">
+          <img src="static/projects/skills.jpg">
+          <span class="card-title">Skills</span>
+        </div>
+        <div class="card-content">
+          <h6>Languages:</h6><p>Python, Javascript, CSS, HTML</p>
+          <h6>Frameworks:</h6><p>Vue.js and Django</p>
+          <h6>Tools:</h6><p>Git, NLTK</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card medium" id='experience'>
+        <div class="card-image">
+          <img src="static/projects/guthlac2.png">
+          <span class="card-title">Experience</span>
+        </div>
+        <div class="card-content">
+          <h6>Starbucks</h6>
+          <p>2011-Present</p>
+          <ul>
+            <li>8+ years manager experience</li>
+            <li>Led diverse teams to accomplish goals</li>
+            <li>Sought feedback from team for ways to improve</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='divider' id='projects'></div>
+<div class='section'>
+  <h5>Projects</h5>
+<div class='row'>
+  <div class='col s12 m6'>
+  <div class="card small">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="static/projects/chaucer.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">A Word-Hoard Unlocked<i class="material-icons right">more_vert</i></span>
+      <p><a href="http://awordhoardunlocked.pythonanywhere.com/">See Project</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">A Word-Hoard Unlocked<i class="material-icons right">close</i></span>
+      <p>Using Public Domain works from Project Gutenberg. A Word-Hoard Unlocked enables you to search through texts to discover insights about the word choices of authors.</p>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+ <div class='divider' id='connect'></div>
+  <div class='section'>
+      <h5>Connect</h5>
+      <div class='row'>
+        <div class='col s6'>
+          <a href='https://www.linkedin.com/in/jared-bennett-7a390b32/'>Linkedin</a>
+        </div>
+        <div class='col s6'>
+          <a href='https://github.com/jnbennett'>GitHub</a>
+        </div> 
+      </div>
+  </div>
+
+	
+{% endblock %}

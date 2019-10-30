@@ -1,0 +1,55 @@
+#portrait{
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+.portrait{
+	max-height: 400px;
+}
+#menu{
+	background-color: white;
+}
+
+.nav-mobile{
+	position: center;
+}
+
+.navbar-fixed{
+	margin-bottom: 5em;
+}
+
+.black-text li a{
+	color:black;
+}
+
+.project.small{
+	width: 400px;
+}
+
+.card.medium{
+	width:275px;
+	height: 500px;
+}
+
+.card.medium img{
+	height: 250px;
+	object-fit: cover;
+}
+
+.card.medium img.materialized.active{
+	max-height: none;
+	object-fit: none;
+}
+
+#intro{
+	margin-top: 5em;	
+}
+
+#who{
+	font-size: 40px;
+}
+
+.blockquote{
+	border-left: 5px solid #b71c1c;
+}
+
+

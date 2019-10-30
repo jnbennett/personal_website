@@ -1,0 +1,59 @@
+{% extends "projects/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class='divider' id='about'>
+</div>
+ <div class="row valign-wrapper" id="about-card">
+    <div class="col s6" >
+      <div class="card medium" id='education'>
+        <div class="card-image">
+          <img src="static/projects/education.jpg">
+          <span class="card-title">Education</span>
+        </div>
+        <div class="card-content">
+        <h6>PDX Code Guild</h6>
+        	<p>June-October 2019</p>
+        <h6>University of Toronto</h6>
+        	<p>Graduated 2016</p>
+        	<p>MA English Literature</p>
+        	<p>Medieval Studies</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col s6" >
+      <div class="card medium" id='skills'>
+        <div class="card-image">
+          <img src="static/projects/skills.jpg">
+          <span class="card-title">Skills</span>
+        </div>
+        <div class="card-content">
+          <h6>Languages:</h6><p>Languages: Python, Javascript, CSS, HTML</p>
+          <h6>Frameworks:</h6><p>Vue.js and Django</p>
+          <h6>Tools:</h6><p>Git, NLTK</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card medium" id='experience'>
+        <div class="card-image">
+          <img src="static/projects/guthlac2.png">
+          <span class="card-title">Experience</span>
+        </div>
+        <div class="card-content">
+          <h6>Starbucks</h6>
+          <p>2011-Present</p>
+          <ul>
+            <li>8+ years manager experience</li>
+            <li>Led diverse teams to accomplish company/store goals</li>
+            <li>Trained and developed individuals into leaders</li>
+            <li>Sought feedback from team for ways to improve</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
